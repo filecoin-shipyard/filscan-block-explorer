@@ -1,13 +1,22 @@
 # filscan-block-explorer
 Filscan.io block and message explorer
 
-A blockchain browser for Filecoin, which can be used to view Filecoin blockchain data, including querying addresses, messages information, block heights, miner information, token information, etc.
+A blockchain browser for Filecoin, which can be used to view Filecoin blockchain data, including querying addresses, messages, block heights, miners, token information, etc.
 
 
 
 ![Filscan screenshot](filscan.jpg)
 
 This project was build with a wave 1 [Filecoin dev grant](https://github.com/filecoin-project/devgrants#filecoin-devgrants).
+
+- Based on the [Block Explorer RFP](https://github.com/filecoin-project/devgrants/blob/master/rfps/rfp-block-explorer.md)
+- Fully functional block explorer website, maintained/managed by [IPFS-Force Community](https://ipfser.org/)
+    - Works on desktop and mobile
+    - Real-time updates based on changes in the network including reorgs
+    - Fast to load
+    - Good UX and visual design
+    - Publicly accessible via a https://filscan.io site. 
+    - Dual-licensed (under MIT and APACHE2)
 
 ## Filscan Frontend
 
